@@ -1,0 +1,11 @@
+[package]
+name = "rust_interop_lib"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_interop_lib"
+crate-type = ["cdylib"]
+
+[dependencies]
+assert_float_eq = "1.1.4"
